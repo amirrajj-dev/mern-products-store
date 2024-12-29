@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__progress-bar-theme--light{
+    background:  linear-gradient(to right, cyan , blue) !important;
+}
+
+.Toastify__progress-bar--success{
+    background:  linear-gradient(to right, cyan , blue) !important;
+}
+
+.Toastify__toast-icon svg{
+    color: #bcc8ce !important;
+    fill: #bcc8ce !important;
+}
+
+
+@layer utilities {
+    .slate{
+        @apply !bg-slate-700 !text-white
+    }
+}
